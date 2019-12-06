@@ -1,0 +1,5 @@
+
+
+// Add column and row with (+) button
+// Assign class after
+// Generate randon position

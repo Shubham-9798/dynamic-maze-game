@@ -1,0 +1,19 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+ 
+td {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border: solid 1px black; 
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
+
