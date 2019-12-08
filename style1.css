@@ -1,4 +1,17 @@
 /* No CSS *//*# sourceMappingURL=style.css.map */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rebeccapurple;
+    text-align: center;
+}
  
 td {
     width: 40px;
@@ -6,6 +19,18 @@ td {
     margin: 2px;
     border: solid 1px black; 
     cursor: pointer;
+}
+
+table {
+    display: inline-block;
+    margin: 15px;
+}
+
+.game-heading{
+    margin: 10px;
+} 
+.game-board {
+    margin: 10px;
 }
 
 button {

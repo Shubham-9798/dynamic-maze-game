@@ -11,19 +11,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="">
-            <h2>Maze Game</h2>
-            <p>
-                way to play game
-            </p>
+        <div class="game-heading">
+            <div class="title">Maze Game</div>
+            <div class="sub-heading">way to play game</div>
+        </div>
+        <div class="instruction">
+
         </div>
         <div class="game-board">
             <button id="row" onclick='promiseFun("row")'>Add Row</button>
             <button id="col" onclick='promiseFun("col")'>Add Column</button>
             <button id="done" onclick='makeIdWhenDone()'>Done</button>
             <button id="Start" onclick='start()'>Start</button>
-            <table id="tbl"></table>
         </div>
+        <table id="tbl"></table>
     </div>
         
 </body>

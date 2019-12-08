@@ -124,10 +124,10 @@ let start = () => {
 
           path[i][j] = 1;
           var lft, rgt, up, dwn;
-          setTimeout(()=> { lft = func(arr, path, i-1, j)},2000)
-          setTimeout(()=> { rgt = func(arr, path, i+1, j)},2000)
-          setTimeout(()=> { up =  func(arr, path, i, j+1)},2000)
-          setTimeout(()=> { dwn = func(arr, path, i, j+1)},2000)
+          setTimeout(()=> { lft = func(arr, path, i-1, j)},1000)
+          setTimeout(()=> { rgt = func(arr, path, i+1, j)},1000)
+          setTimeout(()=> { up =  func(arr, path, i, j+1)},1000)
+          setTimeout(()=> { dwn = func(arr, path, i, j+1)},1000)
           document.getElementById(str).style.backgroundColor = "pink"
   
           if(lft) { console.log("lft"); path[i][j]=0; document.getElementById(str).style.backgroundColor="white"; return 1;}
